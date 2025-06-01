@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fbfbf6;
+  background: linear-gradient(to right, #d7deed, #fbfceb);
+}
+
+.content-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.faq-container {
+  background: linear-gradient(to bottom right, #000000, #a50808);
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  max-width: 700px;
+  color: #f1f1f1;
+}
+
+h1 {
+  color: #5e93e7;
+  text-align: center;
+}
+
+details {
+  background-color: #1a1a1a;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #333;
+}
+
+summary {
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+summary:hover {
+  text-decoration: underline;
+}
+
+p,
+a {
+  color: #e0e0e0;
+}
+
+a:hover {
+  color: #ffb3b3;
+  text-decoration: underline;
+}
+
+.custom-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  margin: 1.5rem;
+  overflow: hidden;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  border-radius: 0.5rem;
+  background: linear-gradient(to right, #999, #ccc); /* fallback */
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-btn span {
+  padding: 0.75rem 1.5rem;
+  background-color: #fff;
+  border-radius: 0.4rem;
+  transition: background 0.5s ease-in-out;
+}
+
+.custom-btn:hover span {
+  background: transparent;
+  color: white;
+}
+
+/* Unique Gradients */
+.purple-blue {
+  background: linear-gradient(to right, #7e22ce, #2563eb);
+}
+.green-teal {
+  background: linear-gradient(to right, #10b981, #06b6d4);
+}
+.orange-red {
+  background: linear-gradient(to right, #f97316, #ef4444);
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888;
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+}
+
+footer img {
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
